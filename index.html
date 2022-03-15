@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>week2</title>
     <script src="js/jquery-3.6.0.js"></script>
-    <script src="https://kit.fontawesome.com/48b05fd135.js" crossorigin="anonymous"></script>
     <style>
         html, body {
             margin: 0px;
@@ -15,9 +14,9 @@
             height: 3000px;
         }
         #scrollTop {
-            width: 80px;
-            height: 80px;
-            line-height: 20px;
+            width: 70px;
+            height: 70px;
+            line-height: 15px;
             right: 5%;
             bottom: 30px;
             background-color: #f7cc94;
@@ -28,6 +27,7 @@
             position: fixed;
         }
         #scrollTop:hover {
+            opacity: 1;
             background-color: #f59a23;
             color: white;
             cursor: pointer;
@@ -36,10 +36,10 @@
 </head>
 <body>
     <h1>스크롤 탑 이동</h1>
-    <font-awesome-icon icon="fa-solid fa-arrow-up-long" />
     <aside id="scrollTop">
         <br/>
-        <i class="fa-solid fa-arrow-up-long"></i><br/>
+        <img src="img/icon.png" width="20px">
+        <br/>
         top
     </aside>
     <script>
